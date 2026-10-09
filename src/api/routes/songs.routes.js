@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get("/", getSongs);
 router.post("/", upload.single("image"), createSong);
-router.put("/", upload.single("image"), updateSong);
+router.put("/:id", upload.single("image"), updateSong);
 router.delete("/:id", deleteSong);
 
 module.exports = router;

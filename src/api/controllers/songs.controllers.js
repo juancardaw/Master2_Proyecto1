@@ -72,7 +72,7 @@ const updateSong = async (req, res) => {
     }
 };
 
-
+// DELETE: Eliminar la cancion 
 const deleteSong = async (req, res) => {
     try {
         const { id } = req.params;

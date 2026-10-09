@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
     },
     image: { type: String, required: true },
     imgId: { type: String },
-    favoriteSong: [{ type: mongoose.Schema.Types.ObjectId, ref: "Song" }] //Array de datos procedente de la coleccion de las canciones 
+    favoriteSongs: [{ type: mongoose.Schema.Types.ObjectId, ref: "Song" }] //Array de datos procedente de la coleccion de las canciones 
 }, {
     timestamps: true
 });
