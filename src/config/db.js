@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
     try {
-        console.log("URL leida del .env", process.env.DB_URL);
+        console.log("URL leida del .env");
         await mongoose.connect(process.env.DB_URL);
         console.log("Conectado a la BBDD con exito")
     } catch (error) {
