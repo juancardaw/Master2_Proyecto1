@@ -60,7 +60,7 @@ const updateSong = async (req, res) => {
             }
         } else {
             // Si no hay imagen nueva, conservamos la que ya tenia
-            newSongData.image = oldSong.imagen;
+            newSongData.image = oldSong.image;
             newSongData.imgId = oldSong.imgId;
         }
 

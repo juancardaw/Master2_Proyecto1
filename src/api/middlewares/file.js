@@ -8,7 +8,7 @@ const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
         folder: "Proyecto1_Musica", //carpeta que se me va a crear el Cloudinary
-        allowed_formats: ["jpg", "jpeg", "png", "WebGLProgram", "gif"]
+        allowed_formats: ["jpg", "jpeg", "png", "webp", "gif"]
     }
 });
 
